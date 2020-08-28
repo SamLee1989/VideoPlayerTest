@@ -1,0 +1,99 @@
+PODS:
+  - Masonry (1.1.0)
+  - Reachability (3.2)
+  - SJBaseVideoPlayer (3.3.8):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/AVPlayer (= 3.3.8)
+    - SJBaseVideoPlayer/Common (= 3.3.8)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.3.8):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.3.8):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.3.8):
+    - Masonry
+    - Reachability
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.51):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.51)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.51)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.51)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.51)
+  - SJUIKit/ObserverHelper (0.0.0.51)
+  - SJUIKit/Queues (0.0.0.51)
+  - SJUIKit/SQLite3 (0.0.0.51):
+    - SJUIKit/SQLite3/Core (= 0.0.0.51)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.51)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.51):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.51):
+    - YYModel
+  - SJVideoPlayer (3.2.6):
+    - SJBaseVideoPlayer (>= 3.3.3)
+    - SJVideoPlayer/Common (= 3.2.6)
+    - SJVideoPlayer/ControlLayers (= 3.2.6)
+    - SJVideoPlayer/ResourceLoader (= 3.2.6)
+  - SJVideoPlayer/Common (3.2.6):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.3.3)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.2.6):
+    - SJBaseVideoPlayer (>= 3.3.3)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.2.6):
+    - SJBaseVideoPlayer (>= 3.3.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - SJVideoPlayer (from `https://gitee.com/changsanjiang/SJVideoPlayer.git`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - YYModel
+
+EXTERNAL SOURCES:
+  SJVideoPlayer:
+    :git: https://gitee.com/changsanjiang/SJVideoPlayer.git
+
+CHECKOUT OPTIONS:
+  SJVideoPlayer:
+    :commit: fed20a2d602cc581b7a13d91567e3cef0a2cb1bd
+    :git: https://gitee.com/changsanjiang/SJVideoPlayer.git
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SJBaseVideoPlayer: 85f98136ab7b1d9595d8f85e3baee3801feb733e
+  SJUIKit: bdf86af3648e70483c57e2bfe2fcc7531337fa54
+  SJVideoPlayer: fb53250dbf0ad2f95c963e9a42efb2057b9e9f27
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 7e10e64e284aaf99b8da7e93c96f642a48bfe0b0
+
+COCOAPODS: 1.9.3
